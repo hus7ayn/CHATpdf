@@ -14,7 +14,7 @@ load_dotenv()
 groq_key = os.getenv('groq_key')
 
 st.title("Chat with PDF 😤 \n"
-         "**Kaisar Imtiyaz**")
+         "**Mohammad Hussain**")
 
 # Initializing the language model
 llm = ChatGroq(groq_api_key=groq_key, model_name="Llama3-8b-8192")
